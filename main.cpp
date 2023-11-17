@@ -1,3 +1,9 @@
+/**
+ * @file main.cpp
+ * @author Jace Riley
+ * @date 2023-11-17
+ * @brief Uses all .h and .cpp files to call functions in order to display the necessary information
+*/
 
 #include <iostream>
 #include "Employee.h"

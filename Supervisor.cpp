@@ -1,3 +1,10 @@
+/**
+ * @file Supervisor.cpp
+ * @author Jace Riley
+ * @date 2023-11-17
+ * @brief Provides the necessary information of the Supervisors so it can later be called in main.cpp
+*/
+
 #include "Supervisor.h"
 #include <iostream>
 

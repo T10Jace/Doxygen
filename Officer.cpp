@@ -1,3 +1,10 @@
+/**
+ * @file Officer.cpp
+ * @author Jace Riley
+ * @date 2023-11-17
+ * @brief Provides the necessary information of the Officers so it can later be called in main.cpp
+*/
+
 #include "Officer.h"
 #include <iostream>
 

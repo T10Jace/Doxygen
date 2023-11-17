@@ -1,3 +1,10 @@
+/**
+ * @file Employee.cpp
+ * @author Jace Riley
+ * @date 2023-11-17
+ * @brief Does the dirty work to ultimately display the employees' info
+*/
+
 #include "Employee.h"
 #include <iostream>
 
