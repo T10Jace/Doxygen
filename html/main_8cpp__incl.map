@@ -1,7 +1,7 @@
 <map id="main.cpp" name="main.cpp">
-<area shape="rect" id="node1" title="Uses all .h and .cpp files to call functions in order to display the necessary information." alt="" coords="125,5,208,32"/>
+<area shape="rect" id="node1" title="Uses all .h and .cpp files to call functions to display necessary information." alt="" coords="125,5,208,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,80,85,107"/>
 <area shape="rect" id="node3" href="$Employee_8h.html" title="Provides public and private members of Employee class." alt="" coords="163,155,261,181"/>
-<area shape="rect" id="node4" href="$Supervisor_8h.html" title="Provides public and private members of Supervisor class." alt="" coords="161,80,263,107"/>
-<area shape="rect" id="node5" href="$Officer_8h.html" title="Provides public and private members of Officer class." alt="" coords="287,80,363,107"/>
+<area shape="rect" id="node4" href="$Supervisor_8h.html" title="Provides public and private members of the Supervisor class." alt="" coords="161,80,263,107"/>
+<area shape="rect" id="node5" href="$Officer_8h.html" title="Provides public and private members of the Officer class." alt="" coords="287,80,363,107"/>
 </map>

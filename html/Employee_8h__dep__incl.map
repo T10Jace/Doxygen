@@ -1,9 +1,9 @@
 <map id="Employee.h" name="Employee.h">
 <area shape="rect" id="node1" title="Provides public and private members of Employee class." alt="" coords="171,5,269,32"/>
-<area shape="rect" id="node2" href="$Employee_8cpp.html" title="Does the dirty work to ultimately display the employees&#39; info." alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node3" href="$main_8cpp.html" title="Uses all .h and .cpp files to call functions in order to display the necessary information." alt="" coords="217,155,300,181"/>
-<area shape="rect" id="node4" href="$Officer_8h.html" title="Provides public and private members of Officer class." alt="" coords="145,80,221,107"/>
-<area shape="rect" id="node6" href="$Supervisor_8h.html" title="Provides public and private members of Supervisor class." alt="" coords="297,80,399,107"/>
-<area shape="rect" id="node5" href="$Officer_8cpp.html" title="Provides the necessary information of the Officers so it can later be called in main...." alt="" coords="103,155,193,181"/>
-<area shape="rect" id="node7" href="$Supervisor_8cpp.html" title="Provides the necessary information of the Supervisors so it can later be called in main...." alt="" coords="324,155,441,181"/>
+<area shape="rect" id="node2" href="$Employee_8cpp.html" title="Contains implementations of Employee class methods." alt="" coords="5,80,120,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="Uses all .h and .cpp files to call functions to display necessary information." alt="" coords="217,155,300,181"/>
+<area shape="rect" id="node4" href="$Officer_8h.html" title="Provides public and private members of the Officer class." alt="" coords="145,80,221,107"/>
+<area shape="rect" id="node6" href="$Supervisor_8h.html" title="Provides public and private members of the Supervisor class." alt="" coords="297,80,399,107"/>
+<area shape="rect" id="node5" href="$Officer_8cpp.html" title="Provides necessary information for Officer class and its methods." alt="" coords="103,155,193,181"/>
+<area shape="rect" id="node7" href="$Supervisor_8cpp.html" title="Provides necessary information for the Supervisor class and its methods." alt="" coords="324,155,441,181"/>
 </map>

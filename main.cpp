@@ -2,8 +2,8 @@
  * @file main.cpp
  * @author Jace Riley
  * @date 2023-11-17
- * @brief Uses all .h and .cpp files to call functions in order to display the necessary information
-*/
+ * @brief Uses all .h and .cpp files to call functions to display necessary information
+ */
 
 #include <iostream>
 #include "Employee.h"
@@ -12,7 +12,11 @@
 
 using namespace std;
 
-void runEmployeeTests(Employee & e);
+/**
+ * @brief Runs tests on an Employee instance
+ * @param e The Employee object to test
+ */
+void runEmployeeTests(Employee &e);
 
 int main() {
   // Test default Employee constructor
@@ -61,6 +65,10 @@ int main() {
   return 0;
 }
 
+/**
+ * @brief Runs tests on an Employee instance
+ * @param e The Employee object to test
+ */
 void runEmployeeTests(Employee &e) {
   
   cout << "Initial print():" << endl;

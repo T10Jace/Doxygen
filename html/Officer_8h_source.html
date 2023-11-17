@@ -72,28 +72,32 @@ $(function() {
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Employee_8h.html">Employee.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classOfficer.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classOfficer.html">Officer</a> : <span class="keyword">public</span> <a class="code" href="classEmployee.html">Employee</a> {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordtype">double</span> evilness; <span class="comment">// Represents how evil the officer is</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordtype">void</span> print(); <span class="comment">// Prints the necessary information of each Officer</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordtype">double</span> calculatePay(); <span class="comment">// Calculates the pay of each Officer bases on their individual evilness, hourly pay, and hours worked</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <a class="code" href="classOfficer.html">Officer</a>(); <span class="comment">// Constructor</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <a class="code" href="classOfficer.html">Officer</a>(<span class="keywordtype">int</span> ID, <span class="keywordtype">int</span> years, <span class="keywordtype">double</span> hourlyRate, <span class="keywordtype">float</span> hoursWorked, <span class="keywordtype">double</span> evilness); <span class="comment">// // Simplifies ability to add and remove Officers by initializing the pointer</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//OFFICER_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classOfficer.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classOfficer.html">Officer</a> : <span class="keyword">public</span> <a class="code" href="classEmployee.html">Employee</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classOfficer.html#a63465c5f16e8148e5bc0a3bb4ecd1781">   19</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="classOfficer.html#a63465c5f16e8148e5bc0a3bb4ecd1781">evilness</a>; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classOfficer.html#aeadece05a1a0b7fb29bd412830d2e07a">print</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="classOfficer.html#a1fa1aad39b9e95be7a088990ebf17059">calculatePay</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="classOfficer.html#a80ac1e36a3f36c3a7e12b5dc9320ad89">Officer</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="classOfficer.html#a80ac1e36a3f36c3a7e12b5dc9320ad89">Officer</a>(<span class="keywordtype">int</span> <a class="code" href="classEmployee.html#a832bbae4ee8a704b917f82c4d497bbac">ID</a>, <span class="keywordtype">int</span> <a class="code" href="classEmployee.html#a3e4862d9dfc73becb459a562fa2e25f5">years</a>, <span class="keywordtype">double</span> <a class="code" href="classEmployee.html#ac31134abb9b4004fc015e51ef579b069">hourlyRate</a>, <span class="keywordtype">float</span> <a class="code" href="classEmployee.html#afde35c73d02eb1cfe89e23a80998b42e">hoursWorked</a>, <span class="keywordtype">double</span> <a class="code" href="classOfficer.html#a63465c5f16e8148e5bc0a3bb4ecd1781">evilness</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// OFFICER_H</span></div>
 <div class="ttc" id="aEmployee_8h_html"><div class="ttname"><a href="Employee_8h.html">Employee.h</a></div><div class="ttdoc">Provides public and private members of Employee class.</div></div>
-<div class="ttc" id="aclassEmployee_html"><div class="ttname"><a href="classEmployee.html">Employee</a></div><div class="ttdef"><b>Definition:</b> Employee.h:11</div></div>
-<div class="ttc" id="aclassOfficer_html"><div class="ttname"><a href="classOfficer.html">Officer</a></div><div class="ttdef"><b>Definition:</b> Officer.h:13</div></div>
+<div class="ttc" id="aclassEmployee_html"><div class="ttname"><a href="classEmployee.html">Employee</a></div><div class="ttdoc">Represents an employee with various attributes and functions.</div><div class="ttdef"><b>Definition:</b> Employee.h:15</div></div>
+<div class="ttc" id="aclassEmployee_html_a3e4862d9dfc73becb459a562fa2e25f5"><div class="ttname"><a href="classEmployee.html#a3e4862d9dfc73becb459a562fa2e25f5">Employee::years</a></div><div class="ttdeci">int years</div><div class="ttdoc">Represents the amount of years the employee has worked at this business.</div><div class="ttdef"><b>Definition:</b> Employee.h:18</div></div>
+<div class="ttc" id="aclassEmployee_html_a832bbae4ee8a704b917f82c4d497bbac"><div class="ttname"><a href="classEmployee.html#a832bbae4ee8a704b917f82c4d497bbac">Employee::ID</a></div><div class="ttdeci">int ID</div><div class="ttdoc">Represents the Employee's individual unique ID.</div><div class="ttdef"><b>Definition:</b> Employee.h:17</div></div>
+<div class="ttc" id="aclassEmployee_html_ac31134abb9b4004fc015e51ef579b069"><div class="ttname"><a href="classEmployee.html#ac31134abb9b4004fc015e51ef579b069">Employee::hourlyRate</a></div><div class="ttdeci">double hourlyRate</div><div class="ttdoc">Represents the Hourly rate of pay for the employee.</div><div class="ttdef"><b>Definition:</b> Employee.h:21</div></div>
+<div class="ttc" id="aclassEmployee_html_afde35c73d02eb1cfe89e23a80998b42e"><div class="ttname"><a href="classEmployee.html#afde35c73d02eb1cfe89e23a80998b42e">Employee::hoursWorked</a></div><div class="ttdeci">float hoursWorked</div><div class="ttdoc">Represents the amount of hours worked by the employee for this pay period.</div><div class="ttdef"><b>Definition:</b> Employee.h:22</div></div>
+<div class="ttc" id="aclassOfficer_html"><div class="ttname"><a href="classOfficer.html">Officer</a></div><div class="ttdoc">Represents an officer inheriting from the Employee class.</div><div class="ttdef"><b>Definition:</b> Officer.h:17</div></div>
+<div class="ttc" id="aclassOfficer_html_a1fa1aad39b9e95be7a088990ebf17059"><div class="ttname"><a href="classOfficer.html#a1fa1aad39b9e95be7a088990ebf17059">Officer::calculatePay</a></div><div class="ttdeci">double calculatePay()</div><div class="ttdoc">Calculates the amount of money taken home by the officer (including evilness factor)</div><div class="ttdef"><b>Definition:</b> Officer.cpp:46</div></div>
+<div class="ttc" id="aclassOfficer_html_a63465c5f16e8148e5bc0a3bb4ecd1781"><div class="ttname"><a href="classOfficer.html#a63465c5f16e8148e5bc0a3bb4ecd1781">Officer::evilness</a></div><div class="ttdeci">double evilness</div><div class="ttdoc">Represents how evil the officer is.</div><div class="ttdef"><b>Definition:</b> Officer.h:19</div></div>
+<div class="ttc" id="aclassOfficer_html_a80ac1e36a3f36c3a7e12b5dc9320ad89"><div class="ttname"><a href="classOfficer.html#a80ac1e36a3f36c3a7e12b5dc9320ad89">Officer::Officer</a></div><div class="ttdeci">Officer()</div><div class="ttdoc">Default constructor for Officer class.</div><div class="ttdef"><b>Definition:</b> Officer.cpp:17</div></div>
+<div class="ttc" id="aclassOfficer_html_aeadece05a1a0b7fb29bd412830d2e07a"><div class="ttname"><a href="classOfficer.html#aeadece05a1a0b7fb29bd412830d2e07a">Officer::print</a></div><div class="ttdeci">void print()</div><div class="ttdoc">Displays Officer information along with inherited Employee information in a formatted manner.</div><div class="ttdef"><b>Definition:</b> Officer.cpp:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

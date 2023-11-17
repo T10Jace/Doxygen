@@ -2,7 +2,17 @@
 \label{classOfficer}\index{Officer@{Officer}}
 
 
-Inheritance diagram for Officer\+:\nopagebreak
+Represents an officer inheriting from the \mbox{\hyperlink{classEmployee}{Employee}} class.  
+
+
+
+
+{\ttfamily \#include $<$Officer.\+h$>$}
+
+
+
+Inheritance diagram for Officer\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,7 +21,8 @@ Inheritance diagram for Officer\+:\nopagebreak
 \end{figure}
 
 
-Collaboration diagram for Officer\+:\nopagebreak
+Collaboration diagram for Officer\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -22,21 +33,82 @@ Collaboration diagram for Officer\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}\label{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}} 
-void {\bfseries print} ()
-\item 
-\mbox{\Hypertarget{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}\label{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}} 
-double {\bfseries calculate\+Pay} ()
-\item 
-\mbox{\Hypertarget{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}\label{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}} 
-{\bfseries Officer} (int ID, int years, double hourly\+Rate, float hours\+Worked, double evilness)
-\end{DoxyCompactItemize}
+void \mbox{\hyperlink{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}{print}} ()
+\begin{DoxyCompactList}\small\item\em Displays \mbox{\hyperlink{classOfficer}{Officer}} information along with inherited \mbox{\hyperlink{classEmployee}{Employee}} information in a formatted manner. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}{calculate\+Pay}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the amount of money taken home by the officer (including evilness factor) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOfficer_a80ac1e36a3f36c3a7e12b5dc9320ad89}{Officer}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \mbox{\hyperlink{classOfficer}{Officer}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}{Officer}} (int \mbox{\hyperlink{classEmployee_a832bbae4ee8a704b917f82c4d497bbac}{ID}}, int \mbox{\hyperlink{classEmployee_a3e4862d9dfc73becb459a562fa2e25f5}{years}}, double \mbox{\hyperlink{classEmployee_ac31134abb9b4004fc015e51ef579b069}{hourly\+Rate}}, float \mbox{\hyperlink{classEmployee_afde35c73d02eb1cfe89e23a80998b42e}{hours\+Worked}}, double \mbox{\hyperlink{classOfficer_a63465c5f16e8148e5bc0a3bb4ecd1781}{evilness}})
+\begin{DoxyCompactList}\small\item\em Constructor that initializes officer attributes. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{classOfficer_a63465c5f16e8148e5bc0a3bb4ecd1781}\label{classOfficer_a63465c5f16e8148e5bc0a3bb4ecd1781}} 
-double {\bfseries evilness}
-\end{DoxyCompactItemize}
+double \mbox{\hyperlink{classOfficer_a63465c5f16e8148e5bc0a3bb4ecd1781}{evilness}}
+\begin{DoxyCompactList}\small\item\em Represents how evil the officer is. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Represents an officer inheriting from the \mbox{\hyperlink{classEmployee}{Employee}} class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOfficer_a80ac1e36a3f36c3a7e12b5dc9320ad89}\label{classOfficer_a80ac1e36a3f36c3a7e12b5dc9320ad89}} 
+\index{Officer@{Officer}!Officer@{Officer}}
+\index{Officer@{Officer}!Officer@{Officer}}
+\doxysubsubsection{\texorpdfstring{Officer()}{Officer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Officer\+::\+Officer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor for \mbox{\hyperlink{classOfficer}{Officer}} class. 
+
+Default constructor for \mbox{\hyperlink{classOfficer}{Officer}} class Initializes evilness to a default value of 500. \mbox{\Hypertarget{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}\label{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}} 
+\index{Officer@{Officer}!Officer@{Officer}}
+\index{Officer@{Officer}!Officer@{Officer}}
+\doxysubsubsection{\texorpdfstring{Officer()}{Officer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Officer\+::\+Officer (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{years,  }\item[{double}]{hourly\+Rate,  }\item[{float}]{hours\+Worked,  }\item[{double}]{evilness }\end{DoxyParamCaption})}
+
+
+
+Constructor that initializes officer attributes. 
+
+Parameterized constructor for \mbox{\hyperlink{classOfficer}{Officer}} class Initializes \mbox{\hyperlink{classOfficer}{Officer}} object with provided values.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ID} & The unique ID of the officer \\
+\hline
+{\em years} & The amount of years the officer has worked \\
+\hline
+{\em hourly\+Rate} & The hourly rate of pay for the officer \\
+\hline
+{\em hours\+Worked} & The amount of hours worked by the officer for this pay period \\
+\hline
+{\em evilness} & The level of evilness of the officer \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}\label{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}} 
+\index{Officer@{Officer}!calculatePay@{calculatePay}}
+\index{calculatePay@{calculatePay}!Officer@{Officer}}
+\doxysubsubsection{\texorpdfstring{calculatePay()}{calculatePay()}}
+{\footnotesize\ttfamily double Officer\+::calculate\+Pay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calculates the amount of money taken home by the officer (including evilness factor) 
+
+\begin{DoxyReturn}{Returns}
+The calculated pay amount 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee}}.
+
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

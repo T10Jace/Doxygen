@@ -1,5 +1,5 @@
 <map id="Officer.h" name="Officer.h">
-<area shape="rect" id="node1" title="Provides public and private members of Officer class." alt="" coords="63,5,139,32"/>
-<area shape="rect" id="node2" href="$main_8cpp.html" title="Uses all .h and .cpp files to call functions in order to display the necessary information." alt="" coords="5,80,88,107"/>
-<area shape="rect" id="node3" href="$Officer_8cpp.html" title="Provides the necessary information of the Officers so it can later be called in main...." alt="" coords="112,80,203,107"/>
+<area shape="rect" id="node1" title="Provides public and private members of the Officer class." alt="" coords="63,5,139,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title="Uses all .h and .cpp files to call functions to display necessary information." alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$Officer_8cpp.html" title="Provides necessary information for Officer class and its methods." alt="" coords="112,80,203,107"/>
 </map>
